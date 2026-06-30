@@ -1,0 +1,140 @@
+
+/* =========================================
+   RESPONSIVE - VECNAYA PAMYAT
+========================================= */
+
+/* =========================
+   TABLET (1024px)
+========================= */
+
+@media (max-width: 1024px) {
+
+    .hero-content h1 {
+        font-size: 70px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    nav {
+        gap: 25px;
+    }
+
+    section h2 {
+        font-size: 48px;
+    }
+
+    .about .container,
+    .contacts-grid {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+}
+
+/* =========================
+   MOBILE LARGE (768px)
+========================= */
+
+@media (max-width: 768px) {
+
+    header .container {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 52px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 100px 0;
+    }
+
+    .contacts h2 {
+        font-size: 40px;
+    }
+}
+
+/* =========================
+   MOBILE SMALL (480px)
+========================= */
+
+@media (max-width: 480px) {
+
+    .hero-content h1 {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .btn,
+    .btn-outline {
+        padding: 14px 30px;
+        font-size: 14px;
+    }
+
+    section h2 {
+        font-size: 32px;
+    }
+
+    .card {
+        padding: 25px;
+    }
+}
+
+/* =========================
+   MOBILE FIX: CURSOR OFF
+========================= */
+
+@media (max-width: 768px) {
+
+    .cursor {
+        display: none;
+    }
+}
+
+/* =========================
+   PREMIUM MOBILE POLISH
+========================= */
+
+@media (max-width: 768px) {
+
+    .hero video {
+        filter: brightness(0.25);
+    }
+
+    .contact-card:hover {
+        transform: none;
+    }
+
+}
